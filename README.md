@@ -17,3 +17,17 @@ For nums = [3, 2, 2, 3] and val = 3:
 Modified array becomes [2, 2, _, _]
 Return value: 2 (new length)
 The time complexity - o(n) & space complexity - o(1)..
+
+**#Merge Sorted Array**
+There are given two sorted integer arrays nums1 and nums2, and two integers m and n, representing the number of elements in nums1 and nums2, respectively.Merge nums2 into nums1 as one sorted array in non-decreasing order.
+The final sorted array should be stored inside nums1.To accommodate this, nums1 has a length of m + n, with the last n elements set to 0 and should be ignored initially.
+Input:
+nums1 = [1,2,3,0,0,0], m = 3  
+nums2 = [2,5,6], n = 3
+Output:
+[1,2,2,3,5,6]
+Time and Space Complexity:
+Time: O(m + n) – Every element is visited once.
+Space: O(1) – In-place merging, no extra space used.
+
+
