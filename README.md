@@ -30,4 +30,16 @@ Time and Space Complexity:
 Time: O(m + n) – Every element is visited once.
 Space: O(1) – In-place merging, no extra space used.
 
+**#Combinational Sum**
+Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target.You may return the combinations in any order. The same number from candidates may be chosen unlimited number of times. Two combinations are considered unique if they contain a different set of elements or the same elements in different quantities.
+This problem approach is typically solved using backtracking:
+*Start with an empty combination.
+*Explore each candidate recursively while subtracting it from the target.
+*If the target becomes 0, you've found a valid combination.
+*If the target becomes negative, backtrack.
+Input: candidates = [2,3,6,7], target = 7  
+Output: [[2,2,3],[7]]
+Explanation: 2 + 2 + 3 = 7, 7 = 7
+Time Complexity:O(n^2)
+Space Complexity:O(n)
 
