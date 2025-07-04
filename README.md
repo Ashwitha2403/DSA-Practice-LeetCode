@@ -43,3 +43,24 @@ Explanation: 2 + 2 + 3 = 7, 7 = 7
 Time Complexity:O(n^2)
 Space Complexity:O(n)
 
+**#Combinational Sum-II**
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the numbers sum to target. Each number in candidates may only be used once in the combination. The solution must not contain duplicate combinations.
+Input:
+candidates = [10,1,2,7,6,1,5], target = 8
+Output:[
+  [1,1,6],
+  [1,2,5],
+  [1,7],
+  [2,6]
+]
+Approach
+Sorting the array helps handle duplicates.
+Backtracking is used to explore possible combinations.
+Duplicate values at the same recursion depth are skipped to avoid repeated results.
+🧠 Algorithm Used
+Backtracking with pruning & Duplicate handling using index comparison
+Time Complexity : O(2ⁿ)
+Space Complexity : O(k × m) + O(n)
+- where n = total elements
+k = avg. combo length
+m = number of valid combinations
