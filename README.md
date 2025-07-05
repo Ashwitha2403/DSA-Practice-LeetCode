@@ -64,3 +64,10 @@ Space Complexity : O(k × m) + O(n)
 - where n = total elements
 k = avg. combo length
 m = number of valid combinations
+
+**#Permutations**
+Given an array nums of distinct integers, return all the possible permutations of the array.The problem asks for all orderings of elements in nums,this means every element should appear in every possible position, exactly once per permutation.We can solve this using backtracking – try each possibility and backtrack once it’s exhausted.It is  abacktracking approach..
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+Time Complexity: O(n)
+Space Complexity: O(n)
