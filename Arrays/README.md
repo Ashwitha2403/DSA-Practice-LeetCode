@@ -1,7 +1,8 @@
 # Description of the Problems
 
-| Problem No. | File Name                          | Description                    |
-|-------------|-------------------------------------|--------------------------------|
-| 1           | [TwoSum.java](TwoSum.java)         | Two Sum Array Problem          |
-| 27          | [RemoveElement.java](RemoveElement.java) | Remove Element from Array Problem |
-| 39          | [CombinationSum.java](CombinationSum.java) | Find All Combinational Sums     |
+| Problem No. | File Name                                   | Description                         | Difficulty |
+|-------------|----------------------------------------------|-------------------------------------|------------|
+| 1           | [TwoSum.java](TwoSum.java)                  | Two Sum Array Problem               | Easy       |
+| 27          | [RemoveElement.java](RemoveElement.java)    | Remove Element Array Problem        | Easy       |
+| 39          | [CombinationSum.java](CombinationSum.java)  | Combinational Sums Array Problem    | Medium     |
+| 40          | [CombinationSum2.java](CombinationSum2.java)| Combinational Sums 2 Array Problem  | Medium     |
