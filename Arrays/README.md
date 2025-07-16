@@ -9,3 +9,4 @@
 | 39          | [CombinationSum.java](CombinationSum.java)                  | Combinational Sums Array Problem     | Medium     |
 | 40          | [CombinationSum2.java](CombinationSum2.java)                | Combinational Sums 2 Array Problem   | Medium     |
 | 66          | [PlusOne.java](PlusOne.java)                                | Add One to Array of Digits           | Easy       |
+| 88          | [MergeSortedArray.java](MergeSortedArray.java)              | Merge Two Sorted Arrays              | Easy       |
